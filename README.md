@@ -17,5 +17,8 @@ Franco churba (1162650) estudiante de la tecnicatura universitaria en desarrollo
   <br>
   <em>Somos</em>
 </p>
+
+Felipe Ojeda (1201773) estudio Ingenieria en Informatica, me gusta el gimnasio y jugar a la compu. 
+
 Actividades en clase
 Clase 2 16/3: Actividad 1 y 2 

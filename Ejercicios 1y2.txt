@@ -1,0 +1,12 @@
+Ejercicio uno 
+TDA.ProductosBazar 
+Usuarios de alto nivel: 
+Acolar: la idea es acolar los productos recién ingresados 
+Desacolar: eliminar el producto vendido Primero: saber cuál fue el primer producto ingresado 
+ColaVacia: saber si hay productos o no Usuarios de bajo nivel: Inicializamos la cola creando una lista con un límite de 1000 pruductos 
+Acolar: seria agregar un ide al final de la lista que represente el producto
+Desacolar: eliminar de la lista el primer producto en ingresar, el que tiene la posición 0 en la lista 
+Primero: devuelve el primer ide y nombre del producto, el que está en la posición 0 
+Colavacia: revisa si hay productos en la lista, verificando si la longitud de la lista es x>0 Ejercicio Dos
+ La estrategia uno es eficiente porque guarda la cantidad en una variable externa y además esta variable tiene el índice para agregar nuevas variables, la segunda estrategia es la más costosa de todas porque tengo que mover todos los elementos cada vez que añado un elemento y la última es la más eficiente porque no necesitas de variables externas, guardas la cantidad en el primer elemento y después guardas como una pila normal sin desplazar. 
+Con referencia a la silla y la el placard, la silla es semejante a la 3er y 1er estrategia ya que es fácil sumar y sacar elementos. Con a la referencia del placard la segunda estrategia se asemeja más ya que a la hora de insertar un valor hay que hacer un desplazamiento costoso

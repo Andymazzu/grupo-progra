@@ -3,9 +3,13 @@ Materia: Algoritmos y estructura de datos II.
 
 nombre grupo: Grupo-progra
 
-Integrantes: Mazzucco Andres 1175488 -  soy muy tranquilo, De Estudientes de la Plata. Me gusta jugar al futbul, videojuegos y mirar pelis
+Integrantes: 
 
-Tomas Morbach 1178309, Maximo Tabasso 1224525, 
+Mazzucco Andres (1175488) soy muy tranquilo, De Estudientes de la Plata. Me gusta jugar al futbul, videojuegos y mirar pelis
+
+Tomas Morbach 1178309, 
+
+Maximo Tabasso (1224525) estudio Ingenieria en Informatica, soy hincha de Boca. Me gusta ver futbol, Formula 1 y jugar videojuegos. 
 
 Franco churba (1162650) estudiante de la tecnicatura universitaria en desarrollo de software, hincha de boca. Como hobbies me gusta jugar futbol y videojuegos.
 <p align="center">

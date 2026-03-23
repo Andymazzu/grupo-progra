@@ -1,3 +1,4 @@
 Guia de Ejercicios: 
-Consigna 1 Historial de Navegacion: a medida que se navegan páginas, se apila la URL de la página anterior. Cuando se usa la flecha de "atras" se desapila la ultima url en la pila y se vuelve a esa pagina.
-
+Consigna 1 Historial de Navegacion: 1) Se apila fl.uba.ar. Tope = 1. 2) Se apila campus.utn.edu.ar. Tope = 2. 3) Se apila stackoverflow.com. Tope = 3. 4) Cuando se usa la flecha "atras" se desapila la ultima URL en la pila y se vuelve a esa pagina. Se repite este proceso hasta Tope = 0
+Consigna 2 Editor de Codigo: 1) cuando se realiza un cambio, como borrar una linae de codigo, este se apila. 2) Al presionar ctrl-z, se desapila y se vuelve al ultimo estado del codigo.
+Consigna 3 Balance de Paréntesis: 1)

@@ -1,1 +1,3 @@
+Guia de Ejercicios: 
+Consigna 1 Historial de Navegacion: a medida que se navegan páginas, se apila la URL de la página anterior. Cuando se usa la flecha de "atras" se desapila la ultima url en la pila y se vuelve a esa pagina.
 

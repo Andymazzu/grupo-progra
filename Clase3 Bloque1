@@ -8,6 +8,13 @@ Consigna 3 Balance de Paréntesis: 1) se abre un paréntesis. Se apila. Tope = 1
 
 Bloque 2
 Fila de Cajero: Cola común, porque el orden de llegada es lo que determina quién se atiende primero. No hay criterios adicionales de prioridad.
-Impresora del Laboratorio:
-Guardia del Hospital de Clínicas (Triage):
-Examen Final (Promocionados vs Regulares):
+Impresora del Laboratorio: Cola común, porque el orden de llegada es lo que determina el orden de impresión. El primer archivo enviado será el primero en imprimirse, y así sucesivamente.
+Guardia del Hospital de Clínicas (Triage): 
+        - Paciente con dolor de cabeza leve: Prioridad 10
+        - Paciente con fractura de brazo: Prioridad 50
+        - Paciente con emergencia médica: Prioridad 100
+Examen Final (Promocionados vs Regulares): 
+Buffet de la Facultad:
+Procesador de Tareas (OS Scheduler):
+Embarque de Aerolíneas:
+Distribución de Tickets IT:

@@ -13,8 +13,8 @@ Guardia del Hospital de Clínicas (Triage):
         - Paciente con dolor de cabeza leve: Prioridad 10
         - Paciente con fractura de brazo: Prioridad 50
         - Paciente con emergencia médica: Prioridad 100
-Examen Final (Promocionados vs Regulares): 
-Buffet de la Facultad:
-Procesador de Tareas (OS Scheduler):
+Examen Final (Promocionados vs Regulares): El promocionado saldrá primero, a pesar de haber llegado después, debido a su mayor prioridad (10 vs 5). En una cola con prioridad, el orden de atención se basa en la prioridad asignada, no en el orden de llegada.
+Buffet de la Facultad: Para asegurar que no se cuele ningún "vibe coder", se utiliza la operación "Acolar" para agregar a cada persona a la fila en el orden en que llegan. De esta manera, se mantiene el orden de llegada y se evita que alguien se cuele.
+Procesador de Tareas (OS Scheduler): En este caso, los procesos del sistema con Prioridad 50 tendrán preferencia sobre los procesos del usuario como Spotify con Prioridad 10. Si el sistema se sobrecarga, el scheduler del sistema operativo dará prioridad a los procesos del sistema para asegurar que las funciones críticas sigan funcionando, mientras que los procesos de menor prioridad como Spotify podrían experimentar retrasos o incluso ser suspendidos temporalmente hasta que la carga disminuya.
 Embarque de Aerolíneas:
 Distribución de Tickets IT:

@@ -3,7 +3,8 @@ Bloque 1
 Consigna 1 Historial de Navegacion: 1) Se apila fl.uba.ar. Tope = 1. 2) Se apila campus.utn.edu.ar. Tope = 2. 3) Se apila stackoverflow.com. Tope = 3. 4) Cuando se usa la flecha "atras" se desapila la ultima URL en la pila y se vuelve a esa pagina. Se repite este proceso hasta Tope = 0
 Consigna 2 Editor de Codigo: 1) cuando se realiza un cambio, como borrar una linae de codigo, este se apila. 2) Al presionar ctrl-z, se desapila y se vuelve al ultimo estado del codigo.
 Consigna 3 Balance de Paréntesis: 1) se abre un paréntesis. Se apila. Tope = 1. 2) se abre el siguiente paréntesis. Se apila. Tope = 2. 3) A + B no afecta a la pila. 4) Se cierra un paréntesis. Se desapila. Tope = 1. 4) * C no afecta a la pila. 5) Se cierra el último paréntesis. Se desapila. Tope = 0. 6) Si Tope = 0, se cerraron todas las llaves. 
-
+Consigna 4 Reversion de Strings: 1) Por cada letra, se apilan en el orden que fueron introducidas, en el caso del string "Algoritmos", Tope = 10. 2) Al desapilarlas, el orden es inverso, por lo que el nuevo string queda como "somtiroglA"
+Consigna 5 Pilas de Llamadas (Call Stack): 1) 
 Consigna 6 Navegacion de Directorios: 1) Entrar a C:/. No se apila. Tope = 0. 2) Entrar a Usuarios. Se apila C:/. Tope = 1. 3) Entrar a Documentos. Se apila Usuarios. Tope = 2. 4) Al presionar "Subir un nivel", se desapila el ultimo valor recibido, en este caso "Usuarios" y se vuelve a esa carpeta. Tope = 1. 
 
 Bloque 2

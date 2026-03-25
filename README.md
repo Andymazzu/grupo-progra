@@ -29,3 +29,4 @@ Joaquín Giménez (1199532): soy de la Pampa, estudiante de la licenciatura en g
 
 Actividades en clase
 Clase 2 16/3: Actividad 1 y 2 
+Clase 3 23/3 Acividades Modelado de TDAS

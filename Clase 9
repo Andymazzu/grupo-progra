@@ -1,0 +1,10 @@
+Ejercicios Costos:
+
+Ejercicio 1: En el peor de los casos, la familia de complejidad es de O(n^2).
+Esto se debe a que existe un loop dentro de otro, si la condicion para salir del primer loop nunca es True, se ejecuta el segundo loop para cada i (ixi).
+
+Ejercicio 2:
+a) En el peor de los casos, la complejidad temporal es de O(n).
+El codigo realiza 2 recorridos para cada elemento, uno para extraerlo y colocarlo en las estructuras tmp y res y otro para devolverlos a la cola original. O(2n) = O(n)
+b) En el peor de los casos, la complejidad espacial tambien es de O(n):
+El algoritmo utiliza memoria adicional para dos estructuras (tmp y res), por lo que corresponde una complejidad de O(2n), que es igual a decir O(n).

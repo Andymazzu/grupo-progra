@@ -1,0 +1,50 @@
+EJERCICIO 1: Análisis de Código Secuencial vs. Iterativo
+Determiná la familia de complejidad temporal O del siguiente método en el peor caso. Justificá desglosando el costo de cada bloque.
+
+public static void procesoMisterioso(int[] arreglo) {
+    int n = arreglo.length;                  //bloque 1=O(1)
+    int a = 10;                             // bloque 2= O(1)
+    System.out.println("Inicio");          // bloque 3=O(1)
+
+    for (int i = 0; i < n; i++) {        //bloque 4 = O(n)
+        arreglo[i] = arreglo[i] * 2;
+    }
+
+    for (int j = 0; j < n; j++) {    		       //bloque 5= O(n)*O(1)* )*O(1)
+        if (arreglo[j] > 100) {      		   
+            System.out.println(arreglo[j]);        
+        }
+    }
+}
+// complejidad total es de O(n) ya que no hay bucles anidados y la mayor comlejidad temporal es O(n)
+
+
+
+
+EJERCICIO 2: El "Bardo" de los Ciclos Anidados
+Analizá el método validarPares y determiná su complejidad temporal. ¿Qué sucede si el número que buscamos está en la primera posición? ¿Y si no está? Enfocate en el peor caso.
+public static boolean validarPares(int[][] matriz) {
+    int n = matriz.length;                       //bloque 1=O(1)
+    for (int i = 0; i < n; i++) {               //bloque 2= O(n)*O(n)*O(1)*O(1)
+        for (int j = 0; j < n; j++) {          
+            if (matriz[i][j] % 2 == 0) {
+                System.out.println("Par hallado");
+            }
+        }
+    }
+    return false;
+}
+//la complejidad es de O(n^2) ya que las constantes en referencia a la 
+// comlejidad temporal se ignoran por ende tomamos el por caso posible ignorandolas, O(n^2)
+
+
+
+
+
+
+EJERCICIO 3: Comparación de Implementaciones (TDA Cola)
+Basándote en las tablas de costos de la cátedra, compará la operación Acolar(x) en:
+1.	ColaPU (Estática): Donde el nuevo elemento va siempre a la posición 0 del arreglo.
+Suponiendo que al acolar tendramos que mover todos los elementos de la lista hacia la derecha tendríamos una complejidad espacial y temporal de O(n), ya que haríamos un bucle encargado de mover todos los elementos
+2.	ColaLD (Dinámica): Donde se utiliza un puntero al último nodo. Pregunta: ¿Cuál es el costo de cada una y por qué la implementación estática suele ser más "pesada" en este caso?
+La complejidad seria de O(1) ya que no dependería el tamaño de la pila en cuanto al apliar, solo habría que apuntar el ulimo nodo al numero agregado y que este ultimo numero apunte al anterior tope.
